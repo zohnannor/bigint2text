@@ -17,8 +17,7 @@ bigint2text({
 produces:
 
 ```typescript
-'one hundred and twenty-three octodecillion four hundred and fifty-six septendecillion seven hundred and eighty-nine sexdecillion twelve quindecillion three hundred and fourty-five quattuordecillion six hundred and seventy tredecillion three hundred and fifty-six duodecillion three hundred and nineteen undecillion six hundred and six decillion four hundred and eighty-three nonillion nine hundred and eleven octillion two hundred and twenty-nine septillion six hundred and seventy-six sextillion one hundred and twenty-two quintillion four hundred and twenty-six quadrillion two hundred and two trillion five hundred and ninety-seven billion thirty-eight million seven hundred and fifty-one thousand seven hundred 
-and fourty-four'
+'one hundred and twenty-three octodecillion four hundred and fifty-six septendecillion seven hundred and eighty-nine sexdecillion twelve quindecillion three hundred and fourty-five quattuordecillion six hundred and seventy tredecillion three hundred and fifty-six duodecillion three hundred and nineteen undecillion six hundred and six decillion four hundred and eighty-three nonillion nine hundred and eleven octillion two hundred and twenty-nine septillion six hundred and seventy-six sextillion one hundred and twenty-two quintillion four hundred and twenty-six quadrillion two hundred and two trillion five hundred and ninety-seven billion thirty-eight million seven hundred and fifty-one thousand seven hundred and fourty-four'
 ```
 
 ## Installation
