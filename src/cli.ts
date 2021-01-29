@@ -40,7 +40,7 @@ process.stdin.resume();
 process.stdin.setEncoding('utf8');
 
 if (process.stdin.isTTY) {
-  process.stdout.write(chalk.underline('Enter an integer number:') + ' \u001B[34m');
+  process.stdout.write(chalk.underline('Enter an integer number:') + ' \u001B[36m');
 }
 
 process.stdin.on('data', buffer => {

@@ -1,6 +1,6 @@
 {
   "name": "bigint2text",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Format any number up to novemnonagnonacentnonimillnonidecimillillion (10^300000)!",
   "keywords": [
     "number",
