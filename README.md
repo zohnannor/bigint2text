@@ -42,12 +42,12 @@ npm i -g bigint2text
 
 ```bash
 $ n2t --help
-Usage: cli -n [num] [-sf]
+Usage: n2t -n [num] [-sf]
 
 Options:
       --help           Show help                                                                     [boolean]
       --version        Show version number                                                           [boolean]
-  -n, --num            Number to be formatted                                                         [number]
+  -n, --num            Number to be formatted                                                         [string]
   -s, --short          If passed, variant will be `'short'` instead of `'long'`     [boolean] [default: false]
   -f, --formatTriples  If `true`, format each 3-digit. Default is `false`           [boolean] [default: false]
 ```

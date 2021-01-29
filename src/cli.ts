@@ -4,7 +4,7 @@ import chalk from 'chalk';
 import { bigint2text } from '.';
 
 var argv = yargs(process.argv.slice(2))
-  .usage('Usage: $0 -n [num] [-sf]')
+  .usage('Usage: n2t -n [num] [-sf]')
   .wrap(110)
   .options({
     // type: 'string' is because of Number precision error.
