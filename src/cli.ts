@@ -45,8 +45,8 @@ if (process.stdin.isTTY) {
 
 process.stdin.on('data', buffer => {
   process.stdout.write('\u001B[39m');
-  const num = +buffer.toString().trim();
-  if (!isNaN(num)) {
+  const num = buffer.toString().trim();
+  if (!isNaN(+num)) {
     const bignum = BigInt(num);
     process.stdout.write(chalk.green.bold(bigint2text({ num: bignum })) + '\n');
     process.exit(0);
