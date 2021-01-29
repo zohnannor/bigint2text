@@ -7,7 +7,8 @@ var argv = yargs(process.argv.slice(2))
   .usage('Usage: $0 -n [num] [-sf]')
   .wrap(110)
   .options({
-    num: { type: 'number', alias: 'n', desc: 'Number to be formatted' },
+    // type: 'string' is because of Number precision error.
+    num: { type: 'string', alias: 'n', desc: 'Number to be formatted' },
     short: {
       type: 'boolean',
       default: false,
