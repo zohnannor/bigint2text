@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import yargs from 'yargs/yargs';
 import chalk from 'chalk';
 import { bigint2text } from '.';

@@ -34,8 +34,14 @@ yarn add bigint2text
 
 ## CLI
 
+To install:
+
 ```bash
-$ bigint2text --help
+npm i -g bigint2text
+```
+
+```bash
+$ n2t --help
 Usage: cli -n [num] [-sf]
 
 Options:
@@ -49,7 +55,7 @@ Options:
 With stdin:
 
 ```bash
-$ bigint2text
+$ n2t
 Enter an integer number: 123456789
 123 million 456 thousand 789
 ```
@@ -57,17 +63,17 @@ Enter an integer number: 123456789
 With pipe:
 
 ```bash
-$ echo 123456789 | bigint2text
+$ echo 123456789 | n2t
 123 million 456 thousand 789
 ```
 
 With args:
 
 ```bash
-$ bigint2text -n 123456789
+$ n2t -n 123456789
 123 million 456 thousand 789
-$ bigint2text -n 123456789 -s
+$ n2t -n 123456789 -s
 123 m 456 k 789
-$ bigint2text -n 123456789 -f
+$ n2t -n 123456789 -f
 one hundred and twenty-three million four hundred and fifty-six thousand seven hundred and eighty-nine
 ```
