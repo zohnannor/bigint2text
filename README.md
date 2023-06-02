@@ -2,14 +2,13 @@
 
 ## Description
 
-Format any number up to novemnonagnonacentnonimillnonidecimillillion (10^300000)!
+Format any number to -illion format!
 
 Example:
 
 ```typescript
 bigint2text({
   num: 123456789012345678901234567890123456789012345678901234567890n,
-  variant: 'long',
   formatTriples: true,
 });
 ```
